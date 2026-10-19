@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import sesion3_L3.Calculadora;
+
 class CalculadoraTest {
 
 	@BeforeAll
@@ -43,6 +45,6 @@ class CalculadoraTest {
 	
 	@Test
 	void testDivision() {
-		assertEquals(5, Calculadora.suma(10,2));
+		assertEquals(5, Calculadora.division(10,2));
 	}
 }
